@@ -8,6 +8,10 @@
     <artifactId>trpc-http-interface</artifactId>
     <version>0.1.0</version>
 
+    <name>trpc-http-interface</name>
+    <description>tRPC HTTP interface for Spring Framework 6</description>
+    <url>https://github.com/linux-china/trpc-http-interface</url>
+
     <properties>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
