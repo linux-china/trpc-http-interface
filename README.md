@@ -61,6 +61,7 @@ public class TrpcClientTest {
         WebClient webClient = WebClient.builder().build();
         HttpServiceProxyFactory httpServiceProxyFactory = HttpServiceProxyFactory.builder()
                 .clientAdapter(WebClientAdapter.forClient(webClient))
+                // @TrpcInput argument resolver
                 .customArgumentResolver(new TrpcArgumentResolver())
                 .build();
         helloService = httpServiceProxyFactory.createClient(HelloService.class);
