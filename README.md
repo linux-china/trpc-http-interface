@@ -96,4 +96,5 @@ Please refer [Spring Boot Starter tRPC](https://github.com/linux-china/trpc-spri
 
 * tRPC: https://trpc.io/
 * Spring HTTP Interface: https://docs.spring.io/spring-framework/docs/current/reference/html/integration.html#rest-http-interface
+* tRPC testing: https://servicex.sh/docs/tutorial-basics/trpc-testing
 
